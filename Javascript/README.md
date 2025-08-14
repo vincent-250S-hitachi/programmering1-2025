@@ -1,175 +1,223 @@
-# Javascript
+# JavaScript
 
 ## Innehåll
 
-- Variabler
-- Datatyper
-- Operatorer
-- Jämförelser
-- If-satser
-- Loopar: while & for
-- Switch
-- Funktioner
-- Arrow-funktioner
-- Objekt
-- Listor/arrays
+1. [Testmiljö](#0-testmiljö)
+2. [Variabler](#11-variabler)
+3. [Datatyper](#12-datatyper)
+4. [Operatorer](#13-operatorer)
+5. [Jämförelser](#14-jämförelser)
+6. [If-satser](#15-if-satser)
+7. [Loopar: while & for](#16-loopar-while-och-for)
+8. [Switch](#17-switch-satsen)
+9. [Funktioner](#18-funktioner)
+10. [Arrow-funktioner](#19-arrow-functions-pil-funktioner)
+11. [Objekt](#110-objekt)
+12. [Listor/Arrays](#111-listor-arrays)
 
-## Intro
+## Introduktion
 
-I det här första kapitlet på våran resa i kursen Programmering 1 så ska vi lära oss grunderna i Javascript/HTML/CSS. Javascript är programmeringsspråket som körs i webbapplikationer och används för att kontrollera webbläsaren vilket resulterar i mer interaktiva webbsidor. På senare tid använder man även Javascript utanför webbläsaren som t.ex. mobilappar och serverapplikationer. Instagram och Facebook är exempel på mobilappar som är utvecklade i Javascript.
+JavaScript är programmeringsspråket som körs i webbapplikationer och används för att kontrollera webbläsaren, vilket resulterar i mer interaktiva webbsidor. På senare tid använder man även JavaScript utanför webbläsaren, som t.ex. mobilappar och serverapplikationer. Instagram och Facebook är exempel på mobilappar som är utvecklade med JavaScript.
 
-Det här är Wikipedias defintion på Javascript:
+### Vad är JavaScript?
 
-> Javascript, i marknadsföringssyfte skrivet JavaScript och förkortat JS, är ett prototyp-baserat skriptspråk som är dynamiskt, svagt typat och hanterar funktioner som första-klass-objekt. Javascript används främst på klientsidan i webbtillämpningar, det vill säga exekveras i en webbläsares Javascriptmotor. Då Javascript används i webbläsare arbetar det mot ett gränssnitt som kallas Document Object Model (DOM).
+> **JavaScript** (förkortat JS) är ett prototyp-baserat skriptspråk som är dynamiskt, svagt typat och hanterar funktioner som första-klass-objekt. JavaScript används främst på klientsidan i webbtillämpningar och exekveras i webbläsarens JavaScript-motor.
 >
-> Vanligtvis inbäddas Javascript i, eller inkluderas från, HTML-sidor. Exempel på användningsområden är kontroll av ifyllda fält innan formulär skickas till en server, funktioner för att visa eller dölja delar av en sida och växling av annonsbilder med visst intervall. Javascript kan även användas för mer avancerade funktioner i en webbläsare såsom spel och bildbehandling.
+> Vanligtvis inbäddas JavaScript i, eller inkluderas från, HTML-sidor. Exempel på användningsområden är kontroll av ifyllda fält innan formulär skickas till en server, funktioner för att visa eller dölja delar av en sida och växling av annonsbilder med visst intervall.
 >
-> Skriptspråket kan implementeras i andra program än webbläsare. Ett numera vanligt exempel av implementation utanför webbläsaren är Node.js, som tillåter utvecklaren att använda Javascript på serversidan för att kunna arbeta med anslutningar till databaser, skicka e-post-meddelanden och så vidare.
+> JavaScript kan även användas för mer avancerade funktioner såsom spel och bildbehandling. Utanför webbläsaren används JavaScript i t.ex. Node.js för serverutveckling.
 
-Detta är en mer teknisk beskrivning som vi kommer förstå bättre när vi är klara med javascript delen.
+### Kursinformation
 
-Vi lär oss alla på olika sätt och i den här kursen kommer det finnas material som förhoppningsvis också passar alla. Kursmaterialet finns som text och Youtube-videor.
+- **Mål:** Lära dig grunderna i JavaScript programmering
+- **Metod:** Kombination av teori, praktiska övningar och projekt
+- **Resurser:** Text, videor och hands-on kodning
+- **Tips:** Våga testa, experimentera och fråga om hjälp!
 
-Våga testa och fråga kompisar och lärare för att få bästa möjligheter till att utvecklas.
+### Huvudresurser
 
-Till varje del så kommer det finnas lite övningsuppgifter.
+- 📚 [W3Schools JavaScript](https://www.w3schools.com/js/default.asp)
+- 🎥 [Modern JavaScript - The Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc)
 
-## Övergripande resurser för denna modul:
+---
 
-- [W3School Javascript](https://www.w3schools.com/js/default.asp)
+## 0. Testmiljö
 
-- [Modern Javascript av The Net Ninja på Youtube](https://www.youtube.com/playlist?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc)
+Det finns flera sätt att testa JavaScript-kod. Här är två rekommenderade metoder:
 
-# 0. Testmiljö
+### Metod 1: Lokal utvecklingsmiljö
 
-Det finns många sätt att testa sin kod, här är dem två exempel.
+1. **Skapa mappstruktur:**
 
-1. Skapa en mappstruktur som tex C:/programmering/javascript.  
-   I javascript mappen öppnar du Visual Studio Code. Från Visual Studio Code skapar du en fil tex **test.html**.
-   I filen **test.html** lägger du in en script tagg:
+   - Skapa en mapp t.ex. `C:/programmering/javascript`
+   - Öppna mappen i Visual Studio Code
+
+2. **Skapa testfil:**
+   - Skapa en fil med namnet `test.html`
+   - Lägg till följande kod:
 
 ```html
-<script>
-  let x = 5;
-  console.log(x);
-</script>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Test</title>
+  </head>
+  <body>
+    <h1>JavaScript Test</h1>
+
+    <script>
+      let x = 5;
+      console.log(x);
+      // Skriv din JavaScript-kod här
+    </script>
+  </body>
+</html>
 ```
 
-Innanför script-taggen kan du skriva din javascript.
-För att se resultatet från koden öppnar du filen från mappen i webbläsaren. I webbläsaren klickar du på tangenten F12 för att öppna **developer-tools** och **konsol-fönstret**.
+3. **Testa koden:**
+   - Öppna `test.html` i webbläsaren
+   - Tryck `F12` för att öppna Developer Tools
+   - Gå till **Console**-fliken för att se resultatet
 
-2. Eller så kan man testa i en online miljö som heter Plunker.  
-   Här är en länk till en plunk som ni kan använda: <https://plnkr.co/edit/9OnAVyIK7Tk1cP6d>
+### Metod 2: Online-miljö
 
-# 1. Variabler, datatyper, jämförelser, if-satser, loopar, objekt och listor
+Använd en online-editor för snabba tester:
+
+- 🔗 [Plunker](https://plnkr.co/edit/9OnAVyIK7Tk1cP6d)
+- 🔗 [CodePen](https://codepen.io)
+- 🔗 [JSFiddle](https://jsfiddle.net)
+
+---
 
 ## 1.1 Variabler
 
-### Resurser
+Variabler används för att lagra data som kan användas och ändras i ditt program.
 
-[W3Schools Variabels](https://www.w3schools.com/js/js_variables.asp)
+### 📚 Resurser
 
-### Övningsuppgifter
+- [W3Schools - JavaScript Variables](https://www.w3schools.com/js/js_variables.asp)
 
-[Övningar Variabler](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#11-variabler)
+### 📝 Övningsuppgifter
+
+- [Övningar Variabler](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#11-variabler)
 
 ## 1.2 Datatyper
 
-### Resurser
+JavaScript har flera olika datatyper för att lagra olika sorters information.
 
-[W3Schools Datatypes](https://www.w3schools.com/js/js_datatypes.asp)
+### 📚 Resurser
 
-### Övningsuppgifter
+- [W3Schools - JavaScript Data Types](https://www.w3schools.com/js/js_datatypes.asp)
 
-[Övningar Datatyper](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-1)
+### 📝 Övningsuppgifter
+
+- [Övningar Datatyper](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-1)
 
 ## 1.3 Operatorer
 
-### Resurser
+Operatorer används för att utföra beräkningar och jämförelser mellan variabler och värden.
 
-[W3Schools Operators](https://www.w3schools.com/js/js_operators.asp)
+### 📚 Resurser
 
-### Övningsuppgifter
+- [W3Schools - JavaScript Operators](https://www.w3schools.com/js/js_operators.asp)
 
-[Övningar Operatorer](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#13-operatorer)
+### 📝 Övningsuppgifter
+
+- [Övningar Operatorer](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#13-operatorer)
 
 ## 1.4 Jämförelser
 
-### Resurser
+Jämförelseoperatorer används för att jämföra värden och returnerar true eller false.
 
-[W3Schools Comparisons](https://www.w3schools.com/js/js_comparisons.asp)
+### 📚 Resurser
 
-### Övningsuppgifter
+- [W3Schools - JavaScript Comparisons](https://www.w3schools.com/js/js_comparisons.asp)
 
-[Övningar Jämförelser](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-3)
+### 📝 Övningsuppgifter
+
+- [Övningar Jämförelser](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-3)
 
 ## 1.5 If-satser
 
-### Resurser
+If-satser används för att köra kod endast under vissa villkor.
 
-[W3Schools If-statement](https://www.w3schools.com/js/js_if_else.asp)
+### 📚 Resurser
 
-### Övningsuppgifter
+- [W3Schools - JavaScript If...Else](https://www.w3schools.com/js/js_if_else.asp)
 
-[Övningar If-satser](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-4)
+### 📝 Övningsuppgifter
+
+- [Övningar If-satser](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-4)
 
 ## 1.6 Loopar: while och for
 
-### Resurser
+Loopar används för att upprepa kod flera gånger under kontrollerade villkor.
 
-[W3Schools Loops: for](https://www.w3schools.com/js/js_loop_for.asp)
-[W3Schools Loops: while](https://www.w3schools.com/js/js_loop_while.asp)
+### 📚 Resurser
 
-### Övningsuppgifter
+- [W3Schools - JavaScript For Loops](https://www.w3schools.com/js/js_loop_for.asp)
+- [W3Schools - JavaScript While Loops](https://www.w3schools.com/js/js_loop_while.asp)
 
-[Övningar Loopar: while och for](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-5)
+### 📝 Övningsuppgifter
+
+- [Övningar Loopar: while och for](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-5)
 
 ## 1.7 Switch-satsen
 
-### Resurser
+Switch-satsen är ett alternativ till if-else när du vill jämföra en variabel mot många olika värden.
 
-[W3Schools The "Switch" statement](https://www.w3schools.com/js/js_switch.asp)
+### 📚 Resurser
 
-### Övningsuppgifter
+- [W3Schools - JavaScript Switch Statement](https://www.w3schools.com/js/js_switch.asp)
 
-[Övningar Switch-satsen](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-6)
+### 📝 Övningsuppgifter
 
-## 1.7 Funktioner
+- [Övningar Switch-satsen](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-6)
 
-### Resurser
+## 1.8 Funktioner
 
-[W3Schools Functions](https://www.w3schools.com/js/js_functions.asp)
+Funktioner är återanvändbara kodblock som utför specifika uppgifter.
 
-### Övningsuppgifter
+### 📚 Resurser
 
-[Övningar Fuktioner](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-7)
+- [W3Schools - JavaScript Functions](https://www.w3schools.com/js/js_functions.asp)
 
-## 1.8 Arrow functions (pil-funktioner)
+### 📝 Övningsuppgifter
 
-### Resurser
+- [Övningar Funktioner](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-7)
 
-[W3Schools Arrow-functions](https://www.w3schools.com/js/js_arrow_function.asp)
+## 1.9 Arrow functions (pil-funktioner)
 
-### Övningsuppgifter
+Arrow functions är en kortare syntax för att skriva funktioner i JavaScript.
 
-[Övningar Arrow functions](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-8)
+### 📚 Resurser
 
-## 1.9 Objekt
+- [W3Schools - JavaScript Arrow Functions](https://www.w3schools.com/js/js_arrow_function.asp)
 
-### Resurser
+### 📝 Övningsuppgifter
 
-[W3Schools Objects](https://www.w3schools.com/js/js_objects.asp)
+- [Övningar Arrow functions](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-8)
 
-### Övningsuppgifter
+## 1.10 Objekt
 
-[Övningar Objekt](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-9)
+Objekt är samlingar av egenskaper och metoder som representerar verkliga eller abstrakta ting.
 
-## 1.10 Listor (Arrays)
+### 📚 Resurser
 
-### Resurser
+- [W3Schools - JavaScript Objects](https://www.w3schools.com/js/js_objects.asp)
 
-[W3Schools Arrays](https://www.w3schools.com/js/js_arrays.asp)
+### 📝 Övningsuppgifter
 
-### Övningsuppgifter
+- [Övningar Objekt](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-9)
 
-[Övningar Arrays](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-10)
+## 1.11 Listor (Arrays)
+
+Arrays är listor som kan lagra flera värden i en enda variabel.
+
+### 📚 Resurser
+
+- [W3Schools - JavaScript Arrays](https://www.w3schools.com/js/js_arrays.asp)
+
+### 📝 Övningsuppgifter
+
+- [Övningar Arrays](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-10)

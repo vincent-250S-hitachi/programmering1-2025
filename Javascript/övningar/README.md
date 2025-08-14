@@ -1,38 +1,90 @@
-# Övningar
+# JavaScript Övningar
+
+## Instruktioner
+
+**Filstruktur:**
+
+1. Skapa en HTML-fil med namnet `övningar-javascript.html`
+2. Skapa separata JavaScript-filer för varje övning: `övning1.1.js`, `övning1.2.js`, etc.
+3. Referera till rätt JavaScript-fil i HTML-filen med `<script src="övning1.1.js"></script>`
+
+**Exempel på HTML-struktur:**
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Övningar</title>
+  </head>
+  <body>
+    <h1>JavaScript Övningar</h1>
+
+    <!-- Kommentera ut de övningar du inte arbetar med för tillfället -->
+    <script src="övning1.1.js"></script>
+    <!-- <script src="övning1.2.js"></script> -->
+    <!-- <script src="övning1.3.js"></script> -->
+  </body>
+</html>
+```
+
+**Arbetsprocess:**
+
+- Använd `console.log()` för att visa resultat i webbläsarens konsol (F12)
+- Använd `alert()` när det specificeras i övningen
+- Kommentera ut andra script-taggar när du arbetar med en specifik övning
+- Ladda upp alla filer till GitHub när du är klar
+
+## Innehåll
+
+1. [Variabler](#11-variabler)
+2. [Datatyper](#12-datatyper)
+3. [Operatorer](#13-operatorer)
+4. [Jämförelser](#14-jämförelser)
+5. [If-satser](#15-if-satser)
+6. [Loopar](#16-loopar-while-och-for)
+7. [Switch](#17-switch-satsen)
+8. [Funktioner](#18-funktioner)
+9. [Arrow functions](#19-arrow-functions-pil-funktioner)
+10. [Objekt](#110-objekt)
+11. [Arrays](#111-listor-arrays)
+
+---
 
 ## 1.1 Variabler
 
 ### Övningsuppgifter
 
-**Övning 0 - Jobba med variabler**
+### **Övning 1.1.1 - Grundläggande variabler**
 
-1. Deklarera 3 variabler **name**, **age**, **hasDriverLicense** med värden **"Kalle Kula"**, **18**, **true**.
-2. Skriv sedan ut alla variabler till konsolen.
+1. Deklarera 3 variabler: `name`, `age`, `hasDriverLicense`
+2. Tilldela värden: `"Kalle Kula"`, `18`, `true`
+3. Skriv ut alla variabler till konsolen
 
-**Övning 1 - Jobba med variabler**
+### **Övning 1.1.2 - Kopiera variabler**
 
-1.  Deklarera två variabler: `admin` och `name`.
-2.  Tilldela värdet `John` till `name`.
-3.  Kopiera värdet från `name` till `admin`.
-4.  Skriv ut värdet på `admin` med `alert()` (borde visa "John").
+1. Deklarera två variabler: `admin` och `name`
+2. Tilldela värdet `"John"` till `name`
+3. Kopiera värdet från `name` till `admin`
+4. Skriv ut värdet på `admin` med `alert()` (ska visa "John")
 
-**Övning 2 - Rätt namngivning på variabler**
+### **Övning 1.1.3 - Variabelnamngivning**
 
-1.  Skapa en variabel med namnet på vår planet. Hur skulle du namnge en sådan variabel?
-2.  Skapa en variabel för att lagra namnet på en aktuell besökare på en webbplats. Hur skulle du namnge den variabeln?
+1. Skapa en variabel med namnet på vår planet (fundera på bra variabelnamn)
+2. Skapa en variabel för att lagra namnet på en webbplatsbesökare (fundera på bra variabelnamn)
 
-**Övning 3 - Jobba med konstanter**
+### **Övning 1.1.4 - Konstanter**
 
-1.  Skapa en konstant `pi` med pi-värdet och 3 decimaler.
-2.  Tilldela `pi` ett annat värde.
-3.  Skriv ut `pi` med `alert()`, vad händer och varför?
+1. Skapa en konstant `pi` med pi-värdet (3 decimaler)
+2. Försök tilldela `pi` ett annat värde
+3. Skriv ut `pi` med `alert()` - vad händer och varför?
 
 ## 1.2 Datatyper
 
 ### Övningsuppgifter
 
-**Övning 1 - Skriv ut datatyperna** <br>
-Fundera över vad du tror följande har för datatyper, skriv det på ett papper
+### **Övning 1.2.1 - Identifiera datatyper**
+
+**Uppgift:** Fundera först över vilka datatyper följande värden har, skriv ner dina gissningar:
 
 1. `undefined`
 2. `0`
@@ -44,54 +96,55 @@ Fundera över vad du tror följande har för datatyper, skriv det på ett papper
 8. `null`
 9. `5 > 4`
 
-Skriv sedan ut med `console.log()` typerna med `typeof()` konstruktionen.
-Blev utskrifterna det du förväntade dig?
+**Kontroll:** Skriv sedan ut typerna med `console.log(typeof värde)` för att se om du hade rätt.
 
 ## 1.3 Operatorer
 
 ### Övningsuppgifter
 
-**Övning 0 - addera, subtrahera, multiplicera**
+### **Övning 1.3.1 - Grundläggande räkneoperationer**
 
-1. Skapa 2 variabler med valfria tal (tex tal1 = 5).
-2. Skriv sedan ut _addition_, _subtration_ och _multiplikation_ av talen med variablerna och _console.log()_
+1. Skapa 2 variabler med valfria tal (t.ex. `tal1 = 5`, `tal2 = 3`)
+2. Skriv ut addition, subtraktion och multiplikation av talen med `console.log()`
 
-**Övning 1 - Postfix och prefix formerna**  
-Vilka är de slutliga värdena för alla variabler a, b, c och d efter koden nedan?
+### **Övning 1.3.2 - Prefix och postfix**
 
-```
-let a = 1, b = 1;
+**Fråga:** Vilka är de slutliga värdena för `a`, `b`, `c` och `d`?
 
+```javascript
+let a = 1,
+  b = 1;
 let c = ++a; // ?
 let d = b++; // ?
 ```
 
-Bekräfta det sedan genom att skriva ut `c` och `d` med `console.log()`.
+**Kontroll:** Bekräfta genom att skriva ut värdena med `console.log()`.
 
-**Övning 2 - tilldelningsresultat**<br>
-Vilka är värdena för a och x efter koden nedan?
+### **Övning 1.3.3 - Tilldelningsoperatorer**
 
-```
+**Fråga:** Vilka värden får `a` och `x`?
+
+```javascript
 let a = 2;
-
 let x = 1 + (a *= 2);
 ```
 
-Bekräfta det sedan genom att skriva ut `a` och `x` med `alert()`.
+**Kontroll:** Bekräfta med `alert()`.
 
-**Övning 3 - typkonverteringar**<br>
-Vad är resultatet av dessa uttryck?
+### **Övning 1.3.4 - Typkonvertering**
 
-```
-1. "" + 1 + 0
-2. "" - 1 + 0
-3. true + false
-4. 6 / "3"
-5. "2" * "3"
-6. 4 + 5 + "px"
-7. "$" + 4 + 5
-8. "4" - 2
-9. "4px" - 2
+**Fråga:** Vad blir resultatet av dessa uttryck? Gissa först!
+
+```javascript
+1.  "" + 1 + 0
+2.  "" - 1 + 0
+3.  true + false
+4.  6 / "3"
+5.  "2" * "3"
+6.  4 + 5 + "px"
+7.  "$" + 4 + 5
+8.  "4" - 2
+9.  "4px" - 2
 10. 7 / 0
 11. "  -9  " + 5
 12. "  -9  " - 5
@@ -100,15 +153,17 @@ Vad är resultatet av dessa uttryck?
 15. " \t \n" - 2
 ```
 
-Bekfräfta det med `alert()`.
+**Kontroll:** Bekräfta med `alert()`.
 
 ## 1.4 Jämförelser
 
 ### Övningsuppgifter
 
-**Övning 1. Vad blir resultatet för dessa uttryck?**
+### **Övning 1.4.1 - Jämförelseoperatorer**
 
-```
+**Fråga:** Vad blir resultatet för dessa uttryck? Gissa först!
+
+```javascript
 1. 5 > 4
 2. "apple" > "pineapple"
 3. "2" > "12"
@@ -118,7 +173,7 @@ Bekfräfta det med `alert()`.
 7. null === +"\n0\n"
 ```
 
-Bekfräfta det med `console.log()`.
+**Kontroll:** Bekräfta med `console.log()`.
 
 ## 1.5 If-satser
 
@@ -280,41 +335,41 @@ if (a == 2 || a == 3) {
 }
 ```
 
-## 1.7 Funktioner
+## 1.8 Funktioner
 
 ### Övningsuppgifter
 
-**Övning 0. Skriv en funktion Add som adderar ett tal med sig självt
+### **Övning 1.8.1 - Enkel adderingsfunktion**
 
-1. Skapa en function add som tar in 1 parameter x och returnerar x+x.
-2. Anropa funktionen med 5 och skriv ut resultatet med alert.
+1. Skapa en funktion `add` som tar in 1 parameter `x` och returnerar `x + x`
+2. Anropa funktionen med värdet 5 och skriv ut resultatet med `alert()`
 
-**Övning 1. Skriv om "switch"-satsen till "if"-satser**<br>
-Följande funktion returnerar sant om parametern `age` är högre än 18.
-Annars skriver den ut "Du är för ung tyvärr!":
+### **Övning 1.8.2 - Funktioner med if-satser**
 
-```
+**Uppgift:** Följande funktion returnerar `true` om `age` är högre än 18, annars skriver den ut "Du är för ung tyvärr!":
+
+```javascript
 function checkAge(age) {
   if (age > 18) {
     return true;
   } else {
-    // ...
-    alert('Du är för ung tyvärr!');
+    alert("Du är för ung tyvärr!");
   }
 }
 ```
 
-Fungerar funktionen annorlunda om `else` delen tas bort?
+**Fråga:** Fungerar funktionen annorlunda om `else`-delen tas bort?
 
-```
+```javascript
 function checkAge(age) {
   if (age > 18) {
     return true;
   }
-  // ...
-  alert('Du är för ung tyvärr!');
+  alert("Du är för ung tyvärr!");
 }
 ```
+
+Testa båda varianterna och förklara skillnaden.
 
 **Övning 2. Skriv om funktionen med '?' eller '||'**<br>
 Följande funktion returnerar sant om parametern `age` är högre än 18.
@@ -341,30 +396,39 @@ min(3, -1) == -1
 min(1, 1) == 1
 ```
 
-**Övning 4. Fuktionen pow(x, n)**<br>
-Skriv en funktion `pow(x, n)` som returnerar `x` i potens `n`. Eller med andra ord multiplicerar `x` med sig `n` gånger och returnerar resultatet. Funktionen behöver bara stödja positiva värden 1, 2, 3...
+### **Övning 1.8.4 - Potens-funktion**
 
-```
-min(2, 5) == 2
-min(3, -1) == -1
-min(1, 1) == 1
+Skriv en funktion `pow(x, n)` som returnerar `x` upphöjt till `n`. Med andra ord: multiplicera `x` med sig själv `n` gånger.
+
+**Exempel:**
+
+```javascript
+pow(2, 3) == 8; // 2 * 2 * 2
+pow(3, 2) == 9; // 3 * 3
+pow(5, 1) == 5; // 5
 ```
 
-## 1.8 Arrow functions (pil-funktioner)
+**Tips:** Använd en loop för att multiplicera `x` med sig själv `n` gånger.
+
+## 1.9 Arrow functions (pil-funktioner)
 
 ### Övningsuppgifter
 
-**Övning 1. Funktionen max(a, b)**<br>
-Skriv en funktion `max(a, b)` med arrow-function som returnerar det största av två siffror `a` och `b`.
-Till exempel:
+### **Övning 1.9.1 - Max-funktion med arrow function**
 
-```
-max(2, 5) == 2
-max(3, -1) == -1
-max(1, 1) == 1
+Skriv en arrow function `max(a, b)` som returnerar det största av två siffror `a` och `b`.
+
+**Exempel:**
+
+```javascript
+max(2, 5) == 5;
+max(3, -1) == 3;
+max(1, 1) == 1;
 ```
 
-## 1.9 Objekt
+**Tips:** Använd syntaxen `const max = (a, b) => { ... }`
+
+## 1.10 Objekt
 
 ### Övningsuppgifter
 
@@ -441,7 +505,7 @@ Observera att `multiplyNumeric` inte behöver returnera någonting. Det bör än
 
 P.S. Använd `typeof()` för att kontrollera ifall det är ett nummer.
 
-## 1.10 Listor (Array)
+## 1.11 Listor (Arrays)
 
 ### Övningsuppgifter
 
@@ -451,20 +515,22 @@ P.S. Använd `typeof()` för att kontrollera ifall det är ett nummer.
 2. Använd en for-loop och loopa igenom alla gruppmedlemmar i arrayen/listan.
 3. För varje medlem skriv ut namnet med `alert()`.
 
-**Övning 2. Blir listan (arrray) kopierad**<br>
+### **Övning 1.11.2 - Array-referenser**
 
-Vad kommer den här koden att visa?
+**Fråga:** Vad kommer denna kod att visa? Gissa först!
 
-```
+```javascript
 let fruits = ["Apples", "Pear", "Orange"];
 
-// push a new value into the "copy"
+// Skapa en "kopia"
 let shoppingCart = fruits;
 shoppingCart.push("Banana");
 
-// what's in fruits?
-alert( fruits.length ); // ?
+// Vad finns i fruits nu?
+alert(fruits.length); // ?
 ```
+
+**Kontroll:** Kör koden och förklara resultatet. Varför blev det så?
 
 **Övning 3. Array operationer**<br>
 
