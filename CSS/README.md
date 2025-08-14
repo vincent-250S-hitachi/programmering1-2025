@@ -13,7 +13,7 @@ CSS (Cascading Style Sheets) är det som ger en webbsida design, färger och lay
 
 ### Huvudresurs
 
-📚 [W3Schools CSS](https://www.w3schools.com/css/default.asp)
+[W3Schools CSS](https://www.w3schools.com/css/default.asp)
 
 ---
 
@@ -41,7 +41,7 @@ CSS (Cascading Style Sheets) är det som ger en webbsida design, färger och lay
 
 CSS-syntax består av selektorer, egenskaper och värden som definierar hur element ska se ut.
 
-### 📚 Resurser
+### Resurser
 
 - [W3Schools CSS Syntax](https://www.w3schools.com/css/css_syntax.asp)
 
@@ -51,11 +51,11 @@ CSS-syntax består av selektorer, egenskaper och värden som definierar hur elem
 
 Selectorer används för att välja vilka HTML-element som ska påverkas av CSS-reglerna.
 
-### 📚 Resurser
+### Resurser
 
 - [W3Schools CSS Selectors](https://www.w3schools.com/css/css_selectors.asp)
 
-### 📝 Övningar
+### Övningar
 
 - [Övning: CSS Selectorer](https://github.com/abbjetmus/programmering/blob/master/CSS/%C3%96vningar/README.md#%C3%B6vning-0-css-selectorer)
 
@@ -65,11 +65,11 @@ Selectorer används för att välja vilka HTML-element som ska påverkas av CSS-
 
 Det finns tre huvudsakliga sätt att lägga till CSS: inline, internal och external.
 
-### 📚 Resurser
+### Resurser
 
 - [W3Schools How To Add CSS](https://www.w3schools.com/css/css_howto.asp)
 
-### 📝 Övningar
+### Övningar
 
 - [Övning: CSS Olika sätt](https://github.com/abbjetmus/programmering/blob/master/CSS/%C3%96vningar/README.md#%C3%B6vning-1-tre-s%C3%A4tt-att-l%C3%A4gga-till-css)
 
@@ -79,7 +79,7 @@ Det finns tre huvudsakliga sätt att lägga till CSS: inline, internal och exter
 
 Lär dig hur man använder färger i CSS med olika format som hex, RGB, HSL och färgnamn.
 
-### 📚 Resurser
+### Resurser
 
 - [W3Schools CSS Colors](https://www.w3schools.com/css/css_colors.asp)
 
@@ -89,7 +89,7 @@ Lär dig hur man använder färger i CSS med olika format som hex, RGB, HSL och 
 
 Kontrollera bakgrundsfärger, bilder och andra bakgrundsegenskaper.
 
-### 📚 Resurser
+### Resurser
 
 - [W3Schools CSS Backgrounds](https://www.w3schools.com/css/css_background.asp)
 
@@ -99,7 +99,7 @@ Kontrollera bakgrundsfärger, bilder och andra bakgrundsegenskaper.
 
 Skapa och anpassa ramar runt element med olika stilar, bredder och färger.
 
-### 📚 Resurser
+### Resurser
 
 - [W3Schools CSS Borders](https://www.w3schools.com/css/css_border.asp)
 
@@ -109,7 +109,7 @@ Skapa och anpassa ramar runt element med olika stilar, bredder och färger.
 
 Kontrollera utrymmet utanför elementens ramar.
 
-### 📚 Resurser
+### Resurser
 
 - [W3Schools CSS Margins](https://www.w3schools.com/css/css_margin.asp)
 
@@ -119,7 +119,7 @@ Kontrollera utrymmet utanför elementens ramar.
 
 Kontrollera utrymmet innanför elementens ramar.
 
-### 📚 Resurser
+### Resurser
 
 - [W3Schools CSS Padding](https://www.w3schools.com/css/css_padding.asp)
 
@@ -129,7 +129,7 @@ Kontrollera utrymmet innanför elementens ramar.
 
 Ställ in höjd och bredd på element för att kontrollera deras storlek.
 
-### 📚 Resurser
+### Resurser
 
 - [W3Schools CSS Dimensions](https://www.w3schools.com/css/css_dimension.asp)
 
@@ -139,11 +139,11 @@ Ställ in höjd och bredd på element för att kontrollera deras storlek.
 
 Förstå hur margin, border, padding och content fungerar tillsammans.
 
-### 📚 Resurser
+### Resurser
 
 - [W3Schools CSS Box Model](https://www.w3schools.com/css/css_boxmodel.asp)
 
-### 📝 Övningar
+### Övningar
 
 - [Övning: CSS Box Model](https://github.com/abbjetmus/programmering/blob/master/CSS/%C3%96vningar/README.md#%C3%B6vning-2-box-modellen)
 
@@ -153,7 +153,7 @@ Förstå hur margin, border, padding och content fungerar tillsammans.
 
 Formatera text med egenskaper som färg, storlek, justering och radavstånd.
 
-### 📚 Resurser
+### Resurser
 
 - [W3Schools CSS Text](https://www.w3schools.com/css/css_text.asp)
 
@@ -163,7 +163,7 @@ Formatera text med egenskaper som färg, storlek, justering och radavstånd.
 
 Kontrollera typsnitt, storlek, vikt och stil på text.
 
-### 📚 Resurser
+### Resurser
 
 - [W3Schools CSS Font](https://www.w3schools.com/css/css_font.asp)
 
@@ -173,7 +173,7 @@ Kontrollera typsnitt, storlek, vikt och stil på text.
 
 Styla länkar i olika tillstånd som hover, visited och active.
 
-### 📚 Resurser
+### Resurser
 
 - [W3Schools CSS Links](https://www.w3schools.com/css/css_link.asp)
 
@@ -183,7 +183,7 @@ Styla länkar i olika tillstånd som hover, visited och active.
 
 Kontrollera hur element visas (block, inline, flex, grid, etc.).
 
-### 📚 Resurser
+### Resurser
 
 - [W3Schools CSS Display](https://www.w3schools.com/css/css_display_visibility.asp)
 
@@ -193,7 +193,7 @@ Kontrollera hur element visas (block, inline, flex, grid, etc.).
 
 Positionera element med static, relative, absolute, fixed och sticky.
 
-### 📚 Resurser
+### Resurser
 
 - [W3Schools CSS Position](https://www.w3schools.com/css/css_positioning.asp)
 
@@ -203,7 +203,7 @@ Positionera element med static, relative, absolute, fixed och sticky.
 
 Kombinera selectorer för att välja specifika element baserat på deras relation.
 
-### 📚 Resurser
+### Resurser
 
 - [W3Schools CSS Combinators](https://www.w3schools.com/css/css_combinators.asp)
 
@@ -224,17 +224,17 @@ Före Flexbox fanns fyra huvudsakliga layoutlägen:
 
 **Flexible Box Layout Module** gör det mycket lättare att designa flexibla responsiva layouts utan att använda float eller komplicerad positionering.
 
-### 📚 Resurser
+### Resurser
 
 - [W3Schools CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp)
 - [CSS-Tricks Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
-### 🎮 Interaktiva Övningar
+### Interaktiva Övningar
 
 - [Flexbox Froggy](https://flexboxfroggy.com/#sv) - Lär dig Flexbox genom att spela!
 - [Flexbox Defense](http://www.flexboxdefense.com/) - Tower Defense med Flexbox
 
-### 📝 Övningar
+### Övningar
 
 - [CSS Flexbox Övningar](./Övningar/README.md) - Praktiska layoutövningar
 

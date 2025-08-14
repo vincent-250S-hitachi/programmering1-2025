@@ -10,7 +10,7 @@
 4. Ladda upp alla filer till GitHub när du är klar
 
 **Extra träning:**
-🔗 [W3Schools CSS Exercises](https://www.w3schools.com/css/css_exercises.asp) - Gör så många som du orkar!
+[W3Schools CSS Exercises](https://www.w3schools.com/css/css_exercises.asp) - Gör så många som du orkar!
 
 ---
 

@@ -36,8 +36,8 @@ JavaScript är programmeringsspråket som körs i webbapplikationer och används
 
 ### Huvudresurser
 
-- 📚 [W3Schools JavaScript](https://www.w3schools.com/js/default.asp)
-- 🎥 [Modern JavaScript - The Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc)
+- [W3Schools JavaScript](https://www.w3schools.com/js/default.asp)
+- [Modern JavaScript - The Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc)
 
 ---
 
@@ -83,9 +83,9 @@ Det finns flera sätt att testa JavaScript-kod. Här är två rekommenderade met
 
 Använd en online-editor för snabba tester:
 
-- 🔗 [Plunker](https://plnkr.co/edit/9OnAVyIK7Tk1cP6d)
-- 🔗 [CodePen](https://codepen.io)
-- 🔗 [JSFiddle](https://jsfiddle.net)
+- [Plunker](https://plnkr.co/edit/9OnAVyIK7Tk1cP6d)
+- [CodePen](https://codepen.io)
+- [JSFiddle](https://jsfiddle.net)
 
 ---
 
@@ -93,11 +93,11 @@ Använd en online-editor för snabba tester:
 
 Variabler används för att lagra data som kan användas och ändras i ditt program.
 
-### 📚 Resurser
+### Resurser
 
 - [W3Schools - JavaScript Variables](https://www.w3schools.com/js/js_variables.asp)
 
-### 📝 Övningsuppgifter
+### Övningsuppgifter
 
 - [Övningar Variabler](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#11-variabler)
 
@@ -105,11 +105,11 @@ Variabler används för att lagra data som kan användas och ändras i ditt prog
 
 JavaScript har flera olika datatyper för att lagra olika sorters information.
 
-### 📚 Resurser
+### Resurser
 
 - [W3Schools - JavaScript Data Types](https://www.w3schools.com/js/js_datatypes.asp)
 
-### 📝 Övningsuppgifter
+### Övningsuppgifter
 
 - [Övningar Datatyper](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-1)
 
@@ -117,11 +117,11 @@ JavaScript har flera olika datatyper för att lagra olika sorters information.
 
 Operatorer används för att utföra beräkningar och jämförelser mellan variabler och värden.
 
-### 📚 Resurser
+### Resurser
 
 - [W3Schools - JavaScript Operators](https://www.w3schools.com/js/js_operators.asp)
 
-### 📝 Övningsuppgifter
+### Övningsuppgifter
 
 - [Övningar Operatorer](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#13-operatorer)
 
@@ -129,11 +129,11 @@ Operatorer används för att utföra beräkningar och jämförelser mellan varia
 
 Jämförelseoperatorer används för att jämföra värden och returnerar true eller false.
 
-### 📚 Resurser
+### Resurser
 
 - [W3Schools - JavaScript Comparisons](https://www.w3schools.com/js/js_comparisons.asp)
 
-### 📝 Övningsuppgifter
+### Övningsuppgifter
 
 - [Övningar Jämförelser](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-3)
 
@@ -141,11 +141,11 @@ Jämförelseoperatorer används för att jämföra värden och returnerar true e
 
 If-satser används för att köra kod endast under vissa villkor.
 
-### 📚 Resurser
+### Resurser
 
 - [W3Schools - JavaScript If...Else](https://www.w3schools.com/js/js_if_else.asp)
 
-### 📝 Övningsuppgifter
+### Övningsuppgifter
 
 - [Övningar If-satser](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-4)
 
@@ -153,12 +153,12 @@ If-satser används för att köra kod endast under vissa villkor.
 
 Loopar används för att upprepa kod flera gånger under kontrollerade villkor.
 
-### 📚 Resurser
+### Resurser
 
 - [W3Schools - JavaScript For Loops](https://www.w3schools.com/js/js_loop_for.asp)
 - [W3Schools - JavaScript While Loops](https://www.w3schools.com/js/js_loop_while.asp)
 
-### 📝 Övningsuppgifter
+### Övningsuppgifter
 
 - [Övningar Loopar: while och for](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-5)
 
@@ -166,11 +166,11 @@ Loopar används för att upprepa kod flera gånger under kontrollerade villkor.
 
 Switch-satsen är ett alternativ till if-else när du vill jämföra en variabel mot många olika värden.
 
-### 📚 Resurser
+### Resurser
 
 - [W3Schools - JavaScript Switch Statement](https://www.w3schools.com/js/js_switch.asp)
 
-### 📝 Övningsuppgifter
+### Övningsuppgifter
 
 - [Övningar Switch-satsen](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-6)
 
@@ -178,11 +178,11 @@ Switch-satsen är ett alternativ till if-else när du vill jämföra en variabel
 
 Funktioner är återanvändbara kodblock som utför specifika uppgifter.
 
-### 📚 Resurser
+### Resurser
 
 - [W3Schools - JavaScript Functions](https://www.w3schools.com/js/js_functions.asp)
 
-### 📝 Övningsuppgifter
+### Övningsuppgifter
 
 - [Övningar Funktioner](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-7)
 
@@ -190,11 +190,11 @@ Funktioner är återanvändbara kodblock som utför specifika uppgifter.
 
 Arrow functions är en kortare syntax för att skriva funktioner i JavaScript.
 
-### 📚 Resurser
+### Resurser
 
 - [W3Schools - JavaScript Arrow Functions](https://www.w3schools.com/js/js_arrow_function.asp)
 
-### 📝 Övningsuppgifter
+### Övningsuppgifter
 
 - [Övningar Arrow functions](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-8)
 
@@ -202,11 +202,11 @@ Arrow functions är en kortare syntax för att skriva funktioner i JavaScript.
 
 Objekt är samlingar av egenskaper och metoder som representerar verkliga eller abstrakta ting.
 
-### 📚 Resurser
+### Resurser
 
 - [W3Schools - JavaScript Objects](https://www.w3schools.com/js/js_objects.asp)
 
-### 📝 Övningsuppgifter
+### Övningsuppgifter
 
 - [Övningar Objekt](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-9)
 
@@ -214,10 +214,10 @@ Objekt är samlingar av egenskaper och metoder som representerar verkliga eller 
 
 Arrays är listor som kan lagra flera värden i en enda variabel.
 
-### 📚 Resurser
+### Resurser
 
 - [W3Schools - JavaScript Arrays](https://www.w3schools.com/js/js_arrays.asp)
 
-### 📝 Övningsuppgifter
+### Övningsuppgifter
 
 - [Övningar Arrays](https://github.com/abbjetmus/programmering/tree/master/Javascript/%C3%B6vningar#%C3%B6vningsuppgifter-10)

@@ -8,13 +8,13 @@ Hittills har vi lärt oss HTML, CSS och JavaScript separat. Nu ska vi lära oss 
 
 **DOM (Document Object Model)** är en programmeringsgränssnitt som representerar HTML-dokument som ett träd av objekt. Med DOM kan vi:
 
-- 🔍 **Hitta** HTML-element
-- ✏️ **Ändra** innehåll och attribut
-- 🎨 **Modifiera** CSS-stilar
-- ➕ **Lägga till** eller ta bort element
-- 👂 **Lyssna** på användarinteraktioner (events)
+- **Hitta** HTML-element
+- **Ändra** innehåll och attribut
+- **Modifiera** CSS-stilar
+- **Lägga till** eller ta bort element
+- **Lyssna** på användarinteraktioner (events)
 
-### 📚 Huvudresurser
+### Huvudresurser
 
 - [W3Schools JS HTML DOM](https://www.w3schools.com/js/js_htmldom.asp)
 - [W3Schools JS Browser BOM](https://www.w3schools.com/js/js_window.asp)
