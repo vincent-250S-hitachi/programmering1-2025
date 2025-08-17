@@ -108,7 +108,7 @@ Lägg till två extensions till Visual Studio Code:<br>
 
 ## Kom igång med GitHub
 
-Det första Du bör göra är att skapa dig ett konto på GitHub. Här är det viktigt att du registrar dig med din studentmejl från ABB Industrigymnasium.
+Det första Du bör göra är att skapa dig ett konto på GitHub. Här är det viktigt att du registrar dig med din studentmejl från Hitachi Industrigymnasium.
 
 Fyll i formuläret som nedan fast med ditt eget användarnamn och e-post.
 ![Github Signup](https://github.com/abbjoafli/Programmering-1/blob/master/Git-Github/Github_SignUp.PNG)
