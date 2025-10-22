@@ -428,6 +428,24 @@ max(1, 1) == 1;
 
 **Tips:** Använd syntaxen `const max = (a, b) => { ... }`
 
+### 1.12 Array filter med arrow functions
+Övningsuppgifter
+Övning 1.12.1 - Filtrera användare efter ålder
+Skapa en array med användarobjekt och använd filter() metoden med en arrow function för att hitta alla användare som är över 17 år.
+
+Exempel:
+
+```javascript
+const users = [
+  { name: "Anna", age: 25 },
+  { name: "Karl", age: 16 },
+  { name: "Sara", age: 18 },
+  { name: "Erik", age: 15 },
+];
+const adults = users.filter(/* arrow function här */);
+console.log(adults);
+```
+
 ## 1.10 Objekt
 
 ### Övningsuppgifter
